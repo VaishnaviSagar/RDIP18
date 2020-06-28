@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+p.dotted {border-style: dotted;}
+p.one {
+  border-style: solid;
+  border-width: 5px;
+}
+p.two {
+  border-style: solid;
+  border-color: green;
+}
+p {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-right: 300px;
+  margin-left: 160px;
+}
+div {
+  padding-top: 100px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+  padding-left: 160px;
+}
+div {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 100px;
+  margin: 40px;
+}
+p.dotted {outline-style: dotted;}
+p.ex1 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin;
+}
+body {
+  color: blue;
+}
+
+h1 {
+  color: green;
+}
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+</style>
+</head>
+<body>
+<p class="uppercase">Understanding styles of webpage.</p>
+<p class="lowercase">This is done by using CSS.</p>
+<p class="capitalize">Lot of new things.</p>
+
+</style>
+</head>
+<body>
+
+<p>Example of unordered lists:</p>
+<ul class="a">
+  <li>Monday</li>
+  <li>Tuesday</li>
+  <li>Wednesday</li>
+</ul>
+
+
+<p>Example of ordered lists:</p>
+<ol class="c">
+  <li>Thursday</li>
+  <li>Friday</li>
+  <li>Saturday</li>
+</ol>
+
+<h2>Let's understand...</h2>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Vaishnavi</td>
+    <td>Sagar</td>
+  </tr>
+  <tr>
+    <td>Narsing</td>
+    <td>Rao</td>
+</table>
+
+</body>
+</html>
